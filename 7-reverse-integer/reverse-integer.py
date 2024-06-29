@@ -8,7 +8,6 @@ class Solution:
         re = 0
         for i in range(len(y)):
             re = re +  int(y[i]) * 10**(i) 
-        print(re)
         if re > -(2**31) and re < 2**31 - 1:
             return k*re
         else:
